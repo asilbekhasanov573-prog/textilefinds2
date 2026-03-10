@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .ux_blaa{
     display: inline-flex;
     justify-content: space-evenly;
@@ -1340,14 +1341,14 @@ body {
    -------------------- */
 
 /* Tablets */
-@media (max-width: 1024px) {
+@media (max-width: 576px) {
     .footer-container {
         gap: 30px;
     }
 }
 
 /* Small tablets & big phones */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .footer-container {
         flex-direction: column;
     }
@@ -1362,7 +1363,7 @@ body {
 }
 
 /* Phones */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .footer-logo img {
         width: 180px;
     }
@@ -1386,7 +1387,7 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 576px) {
     .logo-box {
         width: 140px;
         height: 140px;
@@ -1394,7 +1395,7 @@ body {
 }
 
 /* Katta telefonlar 768px */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .trust-section h2 {
         font-size: 28px;
     }
@@ -1432,7 +1433,7 @@ body {
 }
 
 /* Mini telefonlar 420px */
-@media (max-width: 420px) {
+@media (max-width: 576px) {
     .logo-box {
         width: 100px;
         height: 100px;
@@ -1448,7 +1449,7 @@ body {
         font-size: 24px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 576px){
     .hero{
         height: auto;
         padding-bottom: 30px;
@@ -1458,7 +1459,7 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
     .card {
         font-size: 18px;
     }
@@ -1469,7 +1470,7 @@ body {
 }
 
 /* -------------------- 900px (planshet) -------------------- */
-@media (max-width: 900px) {
+@media (max-width: 756px) {
     .row {
         flex-wrap: wrap;
         gap: 20px;
@@ -1482,7 +1483,7 @@ body {
 }
 
 /* -------------------- 600px (telefon) -------------------- */
-@media (max-width: 600px) {
+@media (max-width: 576px) {
     .row {
         display: flex;
         flex-direction: column;
@@ -1503,7 +1504,7 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
     .header_div1_img {
         width: 210px;
     }
@@ -1516,7 +1517,7 @@ body {
         margin-left: 20px;
     }
 }
-@media (max-width: 992px) {
+@media (max-width: 576px) {
     .header_div1_a1,
     .header_div1_a2,
     .header_div1_img1,
@@ -1544,7 +1545,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
     header {
         height: auto;
@@ -1643,7 +1644,7 @@ body {
     }
 }
 
-@media (max-width: 950px){
+@media (max-width: 576px){
     .hero-left h1{
         font-size:40px;
     }
@@ -1653,7 +1654,7 @@ body {
     }
 }
 
-@media (max-width: 780px){
+@media (max-width: 756px){
     .hero-inner{
         flex-direction:column;
         align-items:flex-start;
@@ -1667,7 +1668,7 @@ body {
     }
 }
 
-@media (max-width:480px){
+@media (max-width:576px){
     .hero-left h1{
         font-size:28px;
     }
@@ -1684,7 +1685,7 @@ body {
         font-size:14px;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 576px) {
     #diw12 h1 {
         font-size: 22px;
     }
@@ -1699,7 +1700,7 @@ body {
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 576px) {
     .header_div1_img {
         width: 130px;
     }
@@ -1718,10 +1719,9 @@ body {
 }
 
 /* 📌 TELEFON UCHUN */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .main_div1_dv1 {
         flex-wrap: wrap;
-        height: auto;
     }
 
     .main_div1_dw1,
@@ -1866,7 +1866,7 @@ body {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .main_div1_dw1,
     .main_div1_dw2,
     .main_div1_dw3,
@@ -1878,9 +1878,13 @@ body {
 
 
 @media (max-width: 576px){
+    .main_div1{
+        width: 100%;
+        height: 800vh;
+        background-color: brown;
+     }
     .main{
         width: 100%;
-
     }
     .main_div2{
         margin-top: -20px;
@@ -1928,12 +1932,12 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 720vh;
+        height: 1000vh;
         background-color: blue;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
     #svg11{
         display: none;
     } 
@@ -2003,7 +2007,7 @@ body {
         margin-left: 0px;
     }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 576px){
     #div111{
         display: none;
     }
