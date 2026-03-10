@@ -41,3 +41,8 @@ fetch("https://fakestoreapi.com/products")
     img1.style.height = "30vh"
 })
 
+
+
+
+
+

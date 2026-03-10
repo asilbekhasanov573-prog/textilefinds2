@@ -99,11 +99,60 @@
             
             </div>            
         </div>
+        
     </header>
     <main>
         <div class="main_div1">
-            <h2 class="h1">Takliflar</h2>
-            <div class="main_div1_dv2">
+            <div class="container">
+                <div class="header">
+                    <h1>Sotuvdagi mahsulotlar</h1>
+                    <a href="#">Barcha mahsulotlar →</a>
+                </div>
+            </div>
+            <div class="main_div1_dv1">
+
+                <div class="main_div1_dw1">
+                    <img id="img6" src="" alt="">
+                    <a id="a6" href=""></a>
+                    <p id="as6"></p>
+                    <p id="asp6"></p>
+                    <p id="aspp6"></p>
+                    <a id="iq6" href=""></a>
+                </div>
+                <div class="main_div1_dw2">
+                    <img id="img7" src="" alt="">
+                    <a id="a7" href=""></a>
+                    <p id="as7"></p>
+                    <p id="asp7"></p>
+                    <p id="aspp7"></p>
+                    <a id="iq7" href=""></a>
+                </div>
+                <div class="main_div1_dw3">
+                    <img id="img8" src="" alt="">
+                    <a id="a8" href=""></a>
+                    <p id="as8"></p>
+                    <p id="asp8"></p>
+                    <p id="aspp8"></p>
+                    <a id="iq8" href=""></a>
+                </div>
+                <div class="main_div1_dw4">
+                    <img id="img9" src="" alt="">
+                    <a id="a9" href=""></a>
+                    <p id="as9"></p>
+                    <p id="asp9"></p>
+                    <p id="aspp9"></p>
+                    <a id="iq9" href=""></a>
+                </div>
+                <div class="main_div1_dw5">
+                    <img id="img10" src="" alt="">
+                    <a id="a10" href=""></a>
+                    <p id="as10"></p>
+                    <p id="asp10"></p>
+                    <p id="aspp10"></p>
+                    <a id="iq10" href=""></a>
+                </div>
+            </div>
+            <div class="main_div1_dv1">
                 <div class="main_div1_dw6">
                     <img id="img6" src="" alt="">
                     <a id="a6" href=""></a>
@@ -515,31 +564,35 @@ function nextSlide() {
             track.style.transition = "none";
             track.style.transform = "translateX(0)";
             index = 0;
-        }, 500); // animatsiya tugashini kutadi
+        }, 500); 
     }
 }
 
-setInterval(nextSlide, 5000); // HAR 2 SEKUNDDA O‘TADI
+document.addEventListener("DOMContentLoaded", () => {
+
+setInterval(nextSlide, 5000);
 
 const btn = document.getElementById("langToggle");
-    const menu = document.getElementById("langMenu");
+const menu = document.getElementById("langMenu");
 
-    btn.addEventListener("click", () => {
-        menu.classList.toggle("show");
-    });
+if (btn && menu) {
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    menu.classList.toggle("show");
+  });
 
-    // tashqariga bosilganda yopiladi
-    document.addEventListener("click", (e) => {
-        if (!e.target.closest(".lang-dropdown")) {
-            menu.classList.remove("show");
-        }
-    });
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".lang-dropdown")) {
+      menu.classList.remove("show");
+    }
+  });
+}
 
+});
     </script>
-    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

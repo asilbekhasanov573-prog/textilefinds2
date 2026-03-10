@@ -244,7 +244,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 690vh;
+    height: 695vh;
     background-color: blue;
 }
 .main_div1{
@@ -1739,7 +1739,7 @@ body {
         flex-wrap: wrap;
         height: auto;
     }
-
+    
     .main_div1_dw6,
     .main_div1_dw7,
     .main_div1_dw8,
@@ -2028,8 +2028,8 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    height: 10vh;
     padding: 20px;
 }
 
@@ -2041,8 +2041,9 @@ body {
 }
 
 .header h1 {
-    font-size: 24px;
+    font-size: 30px;
     color: #333;
+    margin-left: -50px;
 }
 
 .header a {
@@ -2106,6 +2107,9 @@ body {
     font-size: 12px;
     color: #999;
 }
+
+
+
 
 
 
